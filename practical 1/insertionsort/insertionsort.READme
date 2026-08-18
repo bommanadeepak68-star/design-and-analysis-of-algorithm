@@ -1,0 +1,12 @@
+Insertion Sort:
+Insertion Sort takes one element at a time and inserts it into its correct position in the already sorted portion.
+
+Case      	    Time Complexity
+Best Case          	O(n)
+Average Case	    O(n²)
+Worst Case        	O(n²)
+Space Complexity	  O(1)
+
+Best case occurs when the array is already sorted.
+Worst case occurs when the array is in reverse order.
+It works very well for small or nearly sorted datasets.
