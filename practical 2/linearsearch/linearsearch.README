@@ -1,0 +1,13 @@
+Linear Search:
+Linear Search checks each element one by one until the required element is found.
+
+Case	      Time Complexity
+Best Case	       O(1)
+Average Case	    O(n)
+Worst Case    	  O(n)
+Space Complexity	O(1)
+
+Works on both sorted and unsorted arrays.
+Best case occurs when the target is the first element.
+Worst case occurs when the target is the last element or not present.
+Simple to implement but slower for large datasets.
