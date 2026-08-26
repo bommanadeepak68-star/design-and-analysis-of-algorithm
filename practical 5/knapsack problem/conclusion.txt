@@ -1,0 +1,12 @@
+Time Complexity:
+
+Case		Complexity
+Best Case	O(n × W)
+Average Case	O(n × W)
+Worst Case	O(n × W)
+
+Space Complexity   O(n × W)               
+                                 
+ n = number of items        W = knapsack capacity
+
+The 0/1 Knapsack problem is efficiently solved using Dynamic Programming. The algorithm considers whether each item should be included or excluded and finds the maximum possible value within the given capacity. It has a time complexity of O(n × W) and a space complexity of O(n × W).
