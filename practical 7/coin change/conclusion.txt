@@ -1,0 +1,8 @@
+Time Complexity:
+ n = number of coins
+ N = target amount
+ Time Complexity = O(n × N)
+Space Complexity = O(n × N)
+
+conclusion:
+The Coin Change problem is efficiently solved using Dynamic Programming. The algorithm stores previously calculated results in a DP table, avoiding repeated calculations. For n coins and target amount N, the algorithm takes O(n x N) time and O(n x N) space. This approach is more efficient than recursively calculating all possible combinations because overlapping subproblems are solved only once.
