@@ -2,6 +2,10 @@ Time Complexity:
  n = number of coins
  N = target amount
  Time Complexity = O(n × N)
+Case	    Time Complexity	
+Best Case   	 O(n × N)	
+Average Case 	O(n × N)	
+Worst Case	   O(n × N)
 Space Complexity = O(n × N)
 
 conclusion:
