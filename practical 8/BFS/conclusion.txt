@@ -1,0 +1,25 @@
+BFS Complexity:
+
+Let:
+V = number of vertices
+E = number of edges
+
+Time Complexity
+
+Case 	      Time Complexity 
+Best Case     O(V + E)
+Average Case  O(V + E)
+Worst Case    O(V + E)
+
+The three cases are the same because BFS may need to visit every reachable vertex and examine its edges.
+
+Space Complexity:
+
+O(V)
+
+The visited set and queue can store up to V vertices.
+The graph itself requires O(V + E) storage, but the extra space used by the BFS traversal is O(V).
+
+Conclusion:
+
+Conclusion: Breadth First Search (BFS) is a graph traversal algorithm that visits vertices level by level. It uses a queue to maintain the order of traversal and a visited set to avoid visiting the same vertex multiple times. For an adjacency-list representation, BFS has O(V + E) time complexity in the best, average, and worst cases and O(V) auxiliary space complexity.
