@@ -1,0 +1,12 @@
+Time and space complexity:
+
+For this implementation:
+Case		Time complexity	
+Best		O(E log E)	
+Average		O(E log E)	
+Worst		O(E log E)
+
+Space complexity:	O(V + E)
+
+Conclusion
+Kruskal's algorithm is a greedy algorithm used to find the Minimum Spanning Tree of a connected, weighted, undirected graph. It selects edges in increasing order of weight while avoiding cycles. It uses sorting and the Disjoint Set (Union-Find) technique to efficiently construct the MST.
